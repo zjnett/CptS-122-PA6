@@ -8,6 +8,11 @@ Description: This program uses binary search trees to look up morse code.
 
 #pragma once
 
+#include "BSTNode.h"
+
 class BST {
+public:
+    
+private:
 
 };
