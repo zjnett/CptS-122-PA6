@@ -1,0 +1,5 @@
+This is a test of the cpts 122
+Morse code conversion tool.
+The quick brown fox jumped over the lazy dog?
+SOS, the Titanic is sinking.
+1, 2, 3, 4, 5, 6, 7, 8, 9, 10

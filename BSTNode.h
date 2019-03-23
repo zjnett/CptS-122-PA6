@@ -23,14 +23,28 @@ public:
     // Default Destructor
     ~BSTNode() {}
 
+	// getCharacter(), accessor method that returns character in node.
     char getCharacter(void);
+
+	// getMorse(), accessor method that returns morse in node.
     string getMorse(void);
+
+	// getLeft(), accessor method that returns left pointer.
     BSTNode *getLeft(void);
+
+	// getRight(), accessor method that returns right pointer.
     BSTNode *getRight(void);
 
+	// setCharacter(), mutator method that sets new character value.
     void setCharacter(char newCharacter);
+
+	// setMorse(), mutator method that sets new morse value.
     void setMorse(string newMorse);
+
+	// setLeft(), mutator method that sets new left pointer.
     void setLeft(BSTNode *newLeft);
+
+	// setRight(), mutator method that sets new right pointer.
     void setRight(BSTNode *newRight);
     
 private:
