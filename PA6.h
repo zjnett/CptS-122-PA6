@@ -10,3 +10,4 @@ Description: This program uses binary search trees to look up morse code.
 
 #include <iostream>
 #include <string>
+#include <fstream>

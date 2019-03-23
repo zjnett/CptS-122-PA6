@@ -12,7 +12,11 @@ Description: This program uses binary search trees to look up morse code.
 
 class BST {
 public:
-    
+    // Constructor should open and read file, construct and insert nodes, etc.
+    // Thus declaration is below and implemented in BST.cpp.
+    BST();
+    // Default Destructor
+    ~BST() {}
 private:
-
+    BSTNode *root;
 };
